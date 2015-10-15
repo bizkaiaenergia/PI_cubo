@@ -1,0 +1,39 @@
+01-21-2014 12:39:37 INFO      - Iniciada la importación ficheros sistema PI al SQL Server
+ 01-21-2014 12:39:37 DEBUG     - Propiedades cargadas:
+ 01-21-2014 12:39:37 DEBUG     -  > cmd_pi_recalculo: cmd /c D://PI//bin//pirecalc
+ 01-21-2014 12:39:37 DEBUG     -  > cmd_pi_configuracion: cmd /c D://PI//adm//piconfig 
+ 01-21-2014 12:39:37 DEBUG     -  > cmd_pi_horas_previas: 24
+ 01-21-2014 12:39:37 DEBUG     -  > tag_num: 15
+ 01-21-2014 12:39:37 DEBUG     -  > tag_14: CO2Tn.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_13: GASMETER_MWhLHV.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_12: GASMETER_Nm3.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_11: ACTUALPF.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_10: GT2SHUT.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_9: GT1SHUT.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_8: GT2START.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_7: GT1START.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_6: FFHGT2.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_5: FFHGT1.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_4: ACTUALWS.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_3: ACTUALWD.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_2: ACTUALPRESSURE.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_1: ACTUALHUMID.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > tag_0: ACTUALTEMP.TAG
+ 01-21-2014 12:39:37 DEBUG     -  > out_generacion_ultimo: 200101010000
+ 01-21-2014 12:39:37 DEBUG     -  > out_generacion_minuto: 0
+ 01-21-2014 12:39:37 DEBUG     -  > out_generacion_bucle: false
+ 01-21-2014 12:39:37 DEBUG     -  > file_out_comandos: hourly_output_snapshot.txt
+ 01-21-2014 12:39:37 DEBUG     -  > file_out_resultados: AmorebietaCMSPlantData_
+ 01-21-2014 12:39:37 DEBUG     -  > cms_out_path_temporal: D://PI//TEMPORAL//
+ 01-21-2014 12:39:37 DEBUG     -  > cms_out_path_importacion: D://PI//CMS//
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_host: jdbc:sqlserver://10.34.1.116:1433;databasename=maxdb75
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_user: sa
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_password: maximo1
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_transaccion_init: BEGIN TRANSACTION
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_transaccion_end: COMMIT TRANSACTION
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_transaccion_error: ROLLBACK TRANSACTION
+ 01-21-2014 12:39:37 DEBUG     -  > bbdd_out_current_date: GETDATE()
+ 01-21-2014 12:39:37 INFO      - Propiedades cargados correctamente de pi.properties.
+ 01-21-2014 12:39:38 ERROR     - hourly_output_snapshot.txt (Acceso denegado)
+ 
